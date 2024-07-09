@@ -1,0 +1,64 @@
+/*
+
+ Автор : 'Squate_Dev',
+ версия : '1.1.5 PE',
+ тип : 'символ'
+*/
+
+setSpeed : 
+  символ : _ZN6Player8setSpeedEf
+  аргумент : float
+  класс : Player
+
+setMobSpeed :
+  символ : _ZN3Mob8setSpeedEf
+  аргумент : float
+  класс : Mob
+ 
+jumpFromGround : 
+  символ : _ZN6Player14jumpFromGroundEv
+  аргумент : true,false
+  класс : Player
+  
+setChunkRadius :
+  символ : _ZN6Player14setChunkRadiusEj
+  аргумент : int
+  класс : Player
+  
+setSneaking :
+  символ : _ZN11LocalPlayer11setSneakingEb
+  аргумент : bool
+  класс : LocalPlayer
+  
+setSprinting :
+  символ : _ZN11LocalPlayer12setSprintingEb
+  аргумент : bool
+  класс : LocalPlayer
+  
+setPos :
+  символ : _ZN11LocalPlayer6setPosERK4Vec3
+  аргумент : Vec3 Const&
+  класс : Player
+  
+setFieldOfViewModifier : /* поле зрения */
+  символ : _ZN6Player22setFieldOfViewModifierEf
+  класс : Player
+  аргумент : float
+  
+setSize : 
+  символ : _ZN6Player7setSizeEff 
+  класс : Player
+  аргумент : Player ID, int width, int Height 
+  комментарий : возможно такого нету
+  
+setTeacher : 
+  символ : _ZN11LocalPlayer10setTeacherEv
+  класс : LocalPlayer
+  аргумент : There is not
+ 
+setItemSlot : 
+  символ : _ZN11LocalPlayer11setItemSlotE13EquipmentSlotR12ItemInstance
+  класс : LocalPlayer 
+  аргумент : EquipmentSlot, ItemInstance&
+
+/* Это все на данный момент */

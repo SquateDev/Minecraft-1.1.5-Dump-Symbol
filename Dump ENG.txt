@@ -1,0 +1,64 @@
+/*
+
+ Author : 'Squate_Dev',
+ version : '1.1.5 PE',
+ type : 'symbol'
+*/
+
+setSpeed : 
+  symbol : _ZN6Player8setSpeedEf
+  argument : float
+  class : Player
+
+setMobSpeed :
+  symbol : _ZN3Mob8setSpeedEf
+  argument : float
+  class : Mob
+ 
+jumpFromGround : 
+  symbol : _ZN6Player14jumpFromGroundEv
+  argument : true,false
+  class : Player
+  
+setChunkRadius :
+  symbol : _ZN6Player14setChunkRadiusEj
+  argument : int
+  class : Player
+  
+setSneaking :
+  symbol : _ZN11LocalPlayer11setSneakingEb
+  argument : bool
+  class : LocalPlayer
+  
+setSprinting :
+  symbol : _ZN11LocalPlayer12setSprintingEb
+  argument : bool
+  class : LocalPlayer
+  
+setPos :
+  symbol : _ZN11LocalPlayer6setPosERK4Vec3
+  argument : Vec3 Const&
+  class : Player
+  
+setFieldOfViewModifier : /* Fov */
+  symbol : _ZN6Player22setFieldOfViewModifierEf
+  class : Player
+  argument : float
+  
+setSize : 
+  symbol : _ZN6Player7setSizeEff 
+  class : Player
+  argument : Player ID, int width, int Height 
+  comment : probably not
+  
+setTeacher : 
+  symbol : _ZN11LocalPlayer10setTeacherEv
+  class : LocalPlayer
+  argument : There is not
+ 
+setItemSlot : 
+  symbol : _ZN11LocalPlayer11setItemSlotE13EquipmentSlotR12ItemInstance
+  class : LocalPlayer 
+  argument : EquipmentSlot, ItemInstance&
+
+/* That's all for now */
